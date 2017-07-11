@@ -10,6 +10,14 @@ namespace OOPExercises
     {
         static void Main(string[] args)
         {
+            RandNum firstRand = new RandNum(100, 200);
+
+            firstRand.RandVoidNumMethod();
+
+            foreach (int number in (firstRand.RandIntNumMethod()))
+                {
+                Console.Write("{0} ",number);
+                }
         }
     }
 }
