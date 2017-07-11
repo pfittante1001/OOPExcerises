@@ -18,6 +18,17 @@ namespace OOPExercises
                 {
                 Console.Write("{0} ",number);
                 }
+
+            WeekDay firstWeek = new WeekDay(3);
+
+            Console.WriteLine("\n{0}",firstWeek.GetWeekDaySwitch());
+
+            Console.WriteLine();
+
+            WeekDay secondWeek = new WeekDay(2017, 7, 11);
+            
+            Console.WriteLine("\n{0}", secondWeek.GetWeekDay());
+
         }
     }
 }
